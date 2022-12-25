@@ -14,7 +14,7 @@ jobs:
         run: npm run build
 
       - name: Start the app
-        run: npm run start
+        run: npm run start &
       
       - name: Run tests
         run: npm run cy:run
